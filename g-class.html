@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Galerie Foto Mercedes-Benz</title>
+    <title>Mercedes-Benz G-Class</title>
     <!-- Importare Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -32,16 +32,6 @@
             color: #fff !important;
             background-color: #444;
         }
-        .carousel-item img {
-            max-height: 600px;
-            object-fit: cover;
-            width: 100%;
-        }
-        .carousel-caption {
-            font-size: 24px;
-            font-weight: 600;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-        }
         .section-title {
             text-align: center;
             color: #fff;
@@ -50,33 +40,14 @@
             margin: 50px 0 20px;
             letter-spacing: 2px;
         }
-        .gallery-container {
-            margin-top: 60px;
+        .car-details {
+            margin-top: 40px;
         }
-        .card {
-            background-color: #333;
-            border: none;
-            margin-bottom: 30px;
-            border-radius: 15px;
-            overflow: hidden;
-            transition: transform 0.3s ease;
-        }
-        .card:hover {
-            transform: scale(1.05);
-        }
-        .card img {
+        .car-details img {
             width: 100%;
-            height: 200px;
+            height: 500px;
             object-fit: cover;
-        }
-        .card-body {
-            padding: 15px;
-        }
-        .card-text {
-            font-size: 18px;
-            font-weight: 600;
-            color: #ddd;
-            text-transform: uppercase;
+            margin-bottom: 30px;
         }
         .footer {
             background-color: #212121;
@@ -123,42 +94,48 @@
         </div>
     </nav>
 
+    <!-- Detalii G-Class -->
+    <div class="container car-details">
+        <h2 class="section-title">Mercedes-Benz G-Class</h2>
+        <p class="text-center text-white">G-Class este modelul icon al Mercedes-Benz, oferind performanțe excepționale în teren și un design de neegalat.</p>
 
-    <!-- Galerie Foto -->
-    <div class="container gallery-container">
-        <h2 class="section-title">Galerie Foto Mercedes-Benz</h2>
         <div class="row">
-            <div class="col-md-4">
-                <a href="e-class.html">
-                    <div class="card">
-                        <img src="p1.jpg" class="card-img-top" alt="Model 1">
-                        <div class="card-body">
-                            <p class="card-text">Mercedes-Benz E-Class</p>
-                        </div>
-                    </div>
-                </a>
+            <div class="col-md-6">
+                <img src="/g-class/g1.jpg" alt="Mercedes-Benz G-Class">
             </div>
-            <div class="col-md-4">
-                <a href="s-class.html">
-                    <div class="card">
-                        <img src="s1.jpg" class="card-img-top" alt="Model 2">
-                        <div class="card-body">
-                            <p class="card-text">Mercedes-Benz S-Class</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a href="g-class.html">
-                    <div class="card">
-                        <img src="g1.jpg" class="card-img-top" alt="Model 3">
-                        <div class="card-body">
-                            <p class="card-text">Mercedes-Benz G-Class</p>
-                        </div>
-                    </div>
-                </a>
+            <div class="col-md-6">
+                <img src="/g-class/g2.jpg" alt="Interior Mercedes-Benz G-Class">
             </div>
         </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="text-center text-white">Specificații</h3>
+                <ul class="list-unstyled">
+                    <li><strong>Motor:</strong> 4.0L V8 Twin-Turbo</li>
+                    <li><strong>Putere:</strong> 577 CP</li>
+                    <li><strong>Viteză maximă:</strong> 220 km/h</li>
+                    <li><strong>Accente luxoase:</strong> Interior din piele Nappa, sisteme multimedia de top</li>
+                    <li><strong>Sistem de siguranță:</strong> Asistență la conducere, sistem de frânare automată</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="text-white">Galerie Foto</h3>
+            </div>
+            <div class="col-md-4">
+                <img src="/g-class/g3.jpg" class="img-fluid" alt="G-Class Design">
+            </div>
+            <div class="col-md-4">
+                <img src="/g-class/g4.jpg" class="img-fluid" alt="G-Class Interior">
+            </div>
+            <div class="col-md-4">
+                <img src="/g-class/g5.jpg" class="img-fluid" alt="G-Class Off-Road">
+            </div>
+        </div>
+
     </div>
 
     <!-- Footer -->
